@@ -57,7 +57,7 @@ const IncidentAlert: React.FC<IncidentAlertProps> = ({ onDeploy }) => {
 
                     <div className="h-48 rounded-lg bg-gray-900 border border-white/5 relative overflow-hidden group">
                         <img
-                            src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2670&auto=format&fit=crop"
+                            src="https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=2574&auto=format&fit=crop"
                             className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700"
                             alt="CCTV"
                         />

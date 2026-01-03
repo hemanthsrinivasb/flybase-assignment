@@ -81,7 +81,7 @@ const CommandMap: React.FC<CommandMapProps> = () => {
 
                 {/* View 2: FEED (Drone Camera) */}
                 <div className={`absolute inset-0 bg-black transition-opacity duration-500 ${activeView === 'FEED' ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}>
-                    <img src="https://images.unsplash.com/photo-1473862170180-84427c485aca?q=80&w=2670&auto=format&fit=crop" className="w-full h-full object-cover opacity-80" alt="Drone Feed" />
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop" className="w-full h-full object-cover opacity-80" alt="Drone Feed" />
 
                     {/* HUD Overlay */}
                     <div className="absolute inset-0 border-[20px] border-black/20 pointer-events-none">
@@ -122,7 +122,7 @@ const CommandMap: React.FC<CommandMapProps> = () => {
                                 <div className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
                                 <span className="text-[10px] uppercase font-bold text-white bg-black/50 px-1 rounded">Live Feed: D1</span>
                             </div>
-                            <img src="https://images.unsplash.com/photo-1473862170180-84427c485aca?q=80&w=2670&auto=format&fit=crop" className="w-full h-full object-cover opacity-80" />
+                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop" className="w-full h-full object-cover opacity-80" />
                         </>
                     ) : (
                         <div className="w-full h-full bg-slate-800 relative">
